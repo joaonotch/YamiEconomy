@@ -5,6 +5,7 @@ Hi! I'm **Yami**. I'm an app focused on fun, where I generate entertainment thro
 
 - Commands implemented in the system: **/bank**, **/pay**, **/rank**, **/work**, **/daily**
 - Current system version: **v14 | Slash Commands**
+- Database system configured as JSON (SQLite)
   
 ## Installation 💻
 
