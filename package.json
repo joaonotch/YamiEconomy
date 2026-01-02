@@ -1,0 +1,22 @@
+{
+  "name": "yami",
+  "version": "1.0.1",
+  "description": "Yami, uma bot de economia ficticia onde seu objetivo é entreter as pessoas de forma fofa!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "JoaoNotch",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "quick.db": "^9.1.7"
+  }
+}
