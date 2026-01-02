@@ -3,11 +3,10 @@ Hi! I'm **Yami**. I'm an app focused on fun, where I generate entertainment thro
 
 ## Features | v1.0.0 🌐
 
-- Commands implemented in the system: **/bank**, **/pay**, **/rank**, **/work**, **/daily**
+- Commands implemented in the system: **/bank**, **/pay**, **/work**, **/daily**, **/clear** e **/ping**
 - Current system version: **v14 | Slash Commands**
 - Database system configured as JSON (SQLite)
 - Convert your Coins to Yamicoins directly in your digital bank.
-- Sistema de investimentos por comando.
   
 ## Installation 💻
 
