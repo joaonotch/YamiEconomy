@@ -1,6 +1,6 @@
 {
   "name": "yami",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "Yami, uma bot de economia ficticia onde seu objetivo é entreter as pessoas de forma fofa!",
   "main": "index.js",
   "scripts": {

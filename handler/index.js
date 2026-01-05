@@ -10,11 +10,11 @@ module.exports = async (client) => {
   // ===============================
   // CARREGAR SLASH COMMANDS
   // ===============================
-  fs.readdirSync("./ComandosSlash").forEach(subfolder => {
-    fs.readdirSync(`./ComandosSlash/${subfolder}`).forEach(file => {
+  fs.readdirSync("./Commands").forEach(subfolder => {
+    fs.readdirSync(`./Commands/${subfolder}`).forEach(file => {
       if (!file.endsWith(".js")) return;
 
-      const filePath = path.resolve(`./ComandosSlash/${subfolder}/${file}`);
+      const filePath = path.resolve(`./Commands/${subfolder}/${file}`);
       const command = require(filePath);
 
       if (!command?.name) return;
@@ -28,10 +28,10 @@ module.exports = async (client) => {
   // ===============================
   // CARREGAR EVENTOS
   // ===============================
-  fs.readdirSync("./Eventos").forEach(subpasta => {
-    fs.readdirSync(`./Eventos/${subpasta}`).forEach(arquivo => {
+  fs.readdirSync("./Events").forEach(subpasta => {
+    fs.readdirSync(`./Events/${subpasta}`).forEach(arquivo => {
       if (!arquivo.endsWith(".js")) return;
-      require(`../Eventos/${subpasta}/${arquivo}`);
+      require(`../Events/${subpasta}/${arquivo}`);
     });
   });
 

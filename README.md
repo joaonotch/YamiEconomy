@@ -1,12 +1,13 @@
 # Welcome, i'm Yami! 🌸
+![YamiEconomy](./BannerYami.png)
 Hi! I'm **Yami**. I'm an app focused on fun, where I generate entertainment through a savings system! I'm very grateful to be here brightening your day! Leave a star on the code.
 
-## Features | v1.0.0 🌐
+## Features | v1.1 🌐
 
-- Commands implemented in the system: **/bank**, **/pay**, **/work**, **/daily**, **/clear** e **/ping**
-- Current system version: **v14 | Slash Commands**
-- Database system configured as JSON (SQLite)
-- Convert your Coins to Yamicoins directly in your digital bank.
+- Commands implemented in the system: **/profile**, **/rank**, **/store**
+- The VIP+ system has been implemented in the application and is available in the store.
+- Organization of folders/files for events.
+- VIP users are entitled to a +10% bonus on **/daily** and **/work**!
   
 ## Installation 💻
 

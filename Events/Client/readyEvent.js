@@ -14,7 +14,7 @@ client.once(Events.ClientReady, () => {
 
 client.once(Events.ClientReady, () => {
   client.user.setPresence({
-    status: 'dnd', // online | idle | dnd | invisible
+    status: 'online', // online | idle | dnd | invisible
     activities: [
       {
         name: `My version is: v${version}`, // O texto que aparece

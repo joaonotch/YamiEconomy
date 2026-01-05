@@ -1,3 +1,13 @@
+# Node
 node_modules/
+
+# Database
 *.sqlite
 *.db
+
+# Env
+.env
+.env.*
+
+# Admin commands
+Commands/Admin/

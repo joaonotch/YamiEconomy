@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const { formatNumber } = require('../../Eventos/Client/format');
+const { formatNumber } = require('../../Events/Client/formatEvent');
 const { QuickDB } = require('quick.db');
 const db = new QuickDB();
 
