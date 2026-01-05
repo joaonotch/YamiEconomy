@@ -19,7 +19,7 @@ git clone https://github.com/joaonotch/YamiEconomy.git
 ```bash
 npm install
 ```
-3. Configure the `.end` section of your application.
+3. Configure the `.env` section of your application.
 ```bash
 ACCESS_TOKEN=TOKEN
 ```
